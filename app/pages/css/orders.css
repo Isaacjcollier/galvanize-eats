@@ -1,0 +1,15 @@
+body {
+  background-color: orange;
+}
+.box {
+background-color: white;
+padding: 10px 10px;
+margin: 10px 200px;
+}
+.highlight {
+  background-color: lightgrey;
+}
+
+.add-food-button {
+  background-color: blue;
+}
