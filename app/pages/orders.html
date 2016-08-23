@@ -8,20 +8,39 @@
   </head>
   <body>
 
-
+  <!-- Link -->
     <h1><a href="../index.html">Galvanize Eats</a></h1>
 
-    <div class="box">
-    <ul class="food-names"></ul>
-    </div>
-    <label class="add-food-button">
-      <input   type="button" name="name" value="ADD">
-    </label>
+    <form>
+      <!-- Available Items -->
+      <div class="box">
+        <ul class="food-names"></ul>
+        <!-- button for adding from inventory to checkout -->
+        <label class="add-food-button">
+          <input id="add-food" type="button" name="name" value="Add Item">
+        </label>
+        <!-- Adding Quantity -->
+        <input class="quantity-form" type="number" name="quantity" value="1">
 
+        <!-- Add User's Name -->
+        <label for="user-name">User's Name</label>
+        <input type="text" name="user-name" placeholder="John Doe">
+        <!-- Add User's Phone Number -->
+        <label for="user-phone-number">User's Phone Number</label>
+        <input type="text" name="user-phone-number" placeholder="(123)456-7890">
+        <!-- Add User's Name -->
+        <label for="user-address">User's Address</label>
+        <input type="text" name="user-address" placeholder="123 Blvd Ln.">
+      </div>
+      <!-- Checkout Item List -->
+      <div class="box">
+        <ul class="checkout-items"></ul>
+        <p class="total-cost">
+          Total :::
+        </p>
+      </div>
 
-    <div class="box">
-
-    </div>
+    </form>
 
 
 
